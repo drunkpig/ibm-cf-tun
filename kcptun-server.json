@@ -1,0 +1,15 @@
+{
+  "listen": ":56789",
+  "target": "127.0.0.1:31000",
+  "key": "wh0syourdaddy",
+  "crypt": "aes-128",
+  "mode": "fast",
+  "mtu": 1350,
+  "sndwnd": 512,
+  "rcvwnd": 512,
+  "datashard": 10,
+  "parityshard": 3,
+  "dscp": 0,
+  "nocomp": false,
+  "pprof": false
+}
