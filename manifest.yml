@@ -3,6 +3,6 @@ applications:
   name: mytunnel
   random-route: true
   memory: 64M
-  buildpack: nodejs_buildpack
+  buildpack: go_buildpack
   command: ./run.sh
 
