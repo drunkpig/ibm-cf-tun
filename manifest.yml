@@ -2,7 +2,7 @@ applications:
 - path: .
   name: mytunnel
   random-route: true
-  memory: 64M
+  memory: 256M
   buildpack: go_buildpack
   command: ./run.sh
   health-check-type: none
