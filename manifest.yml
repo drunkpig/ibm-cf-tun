@@ -5,4 +5,5 @@ applications:
   memory: 64M
   buildpack: go_buildpack
   command: ./run.sh
+  health-check-type: none
 
